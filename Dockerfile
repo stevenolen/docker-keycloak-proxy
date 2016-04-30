@@ -10,4 +10,4 @@ RUN wget https://downloads.jboss.org/keycloak/1.9.3.Final/keycloak-proxy-${KEYCL
 
 EXPOSE 8080
 
-CMD ["/usr/bin/java", "-jar", "/keycloak-proxy/bin/launder.jar", "/proxy.json"]
+CMD ["/usr/bin/java", "-jar", "/keycloak-proxy/bin/launcher.jar", "/proxy.json"]
