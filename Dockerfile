@@ -1,5 +1,5 @@
-FROM alpine:3.2
-RUN apk --update add openjdk7-jre openssl
+FROM java:8-jre-alpine
+RUN apk --update add openssl
 
 ENV KEYCLOAK_VERSION 1.9.3.Final
 
